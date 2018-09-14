@@ -1,0 +1,39 @@
+{
+  "name": "jasmine-protractor-matchers",
+  "version": "2.0.0",
+  "description": "Collection of additional jasmine matchers, that is useful for those who develop e2e tests using protractor",
+  "main": "./built/index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "node built/test.js",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xotabu4/jasmine-protractor-matchers.git"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "matchers"
+  ],
+  "author": "Oleksandr Khotemskyi <xotabu4@gmail.com> (https://github.com/Xotabu4)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xotabu4/jasmine-protractor-matchers/issues"
+  },
+  "homepage": "https://github.com/Xotabu4/jasmine-protractor-matchers#readme",
+  "peerDependencies": {
+    "protractor": "3.0.0 - 5.x.x",
+    "jasmine": "2.x.x"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.38",
+    "@types/node": "^7.0.12",
+    "jasmine": "^2.5.0",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "arguejs": "0.2.3"
+  }
+}
